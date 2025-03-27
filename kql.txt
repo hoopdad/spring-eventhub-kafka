@@ -1,0 +1,4 @@
+ContainerAppConsoleLogs_CL
+| project TimeGenerated, Log_s
+| order by TimeGenerated asc 
+| where TimeGenerated > datetime_add('minute',-2,now())

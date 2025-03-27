@@ -1,5 +1,8 @@
 //Copyright (c) Microsoft Corporation. All rights reserved.
 //Licensed under the MIT License.
+
+// Adapted for current MI usage and container deployment from https://github.com/Azure/azure-event-hubs-for-kafka/tree/master/tutorials/oauth/java/managedidentity/producer
+
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerConfig;

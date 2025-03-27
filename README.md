@@ -7,6 +7,7 @@
 - Azure Container Apps Environment
 - Azure Container App
 - User Assigned Managed Identity assigned to Azure Container App, with Azure Event Hubs Data Owner on your Event Hub and AcrPull & Reader on the ACR
+- No env variables set by me in the ACA so that DefaultAzureCredential can pick the right one for Managed Identity.
 
 ## To Start
 

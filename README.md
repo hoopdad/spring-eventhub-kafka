@@ -11,12 +11,13 @@
 
 ## To Start
 
-- Replace <managedIdentityClientId> in CustomAuthenticateCallbackHander.java
+- Replace \<managedIdentityClientId\> in CustomAuthenticateCallbackHander.java
 - TestDataReporter is set up so you can run this as a container and it will retry every 5 minutes
 - Default topic is TOPIC="test" in TestProducer.java. Change if you need to.
 - Config file is loaded from filesystem not jar, tweak that if you prefer or just add the config file to your DOckerfile with given example
-- IN producer.config, change <your event hub namespace> to the value for yours. It builds a URL which is displayed on the Event Hub Namespace overview page.
+- IN producer.config, change \<your event hub namespace\> to the value for yours. It builds a URL which is displayed on the Event Hub Namespace overview page.
 
 ## Build and Deploy
 
-- in build.sh, set ACR_NAME="<my acr name>" and IMAGE_NAME="<app name>"
+- in build.sh, set ACR_NAME="\<my acr name\>" and IMAGE_NAME="\<app name\>"
+
